@@ -3,7 +3,7 @@ function oddAndEvenSum(num) {
   let arr = [];
   let evenSum = 0;
   let oddSum = 0;
-  
+
   function iterate(numToString) {
     for (let i = 0; i < numToString.length; i++)
       arr.push(Number(numToString[i]));

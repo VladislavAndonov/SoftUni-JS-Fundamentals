@@ -15,7 +15,7 @@ function gladiator(lostFights, helmPrice, swordPrice, shieldPrice, armorPrice) {
       trashedHelm++;
     }
   }
-    trashedArmor = Math.trunc(trashedShield / 2)
+  trashedArmor = Math.trunc(trashedShield / 2);
 
   expenses +=
     trashedHelm * helmPrice +
@@ -25,4 +25,4 @@ function gladiator(lostFights, helmPrice, swordPrice, shieldPrice, armorPrice) {
   console.log(`Gladiator expenses: ${expenses.toFixed(2)} aureus`);
 }
 gladiator(7, 2, 3, 4, 5);
-gladiator(23, 12.50, 21.50, 40, 200);
+gladiator(23, 12.5, 21.5, 40, 200);

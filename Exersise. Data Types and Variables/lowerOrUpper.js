@@ -1,9 +1,9 @@
 function lowerOrUpper(char) {
-    if (char.toLowerCase() === char){
-        console.log("lower-case");
-    } else {
-        console.log("upper-case");
-    }
+  if (char.toLowerCase() === char) {
+    console.log("lower-case");
+  } else {
+    console.log("upper-case");
+  }
 }
-lowerOrUpper('L')
-lowerOrUpper('f')
+lowerOrUpper("L");
+lowerOrUpper("f");

@@ -1,4 +1,2 @@
-function charsInRange() {
-    
-}
-charsInRange('a', 'd')
+function charsInRange() {}
+charsInRange("a", "d");

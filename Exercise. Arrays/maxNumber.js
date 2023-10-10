@@ -14,7 +14,7 @@ function maxNum(arr) {
       newArr.push(curInt);
     }
   }
-  console.log(newArr.join(' '));
+  console.log(newArr.join(" "));
 }
 maxNum([1, 4, 3, 2]);
 maxNum([14, 24, 3, 19, 15, 17]);

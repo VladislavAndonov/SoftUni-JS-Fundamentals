@@ -25,6 +25,6 @@ function login(input) {
     console.log(`User ${username} logged in.`);
   }
 }
-// login(["Acer", "login", "go", "let me in", "recA"]);
-// login(['momo','omom'])
+login(["Acer", "login", "go", "let me in", "recA"]);
+login(["momo", "omom"]);
 login(["sunny", "rainy", "cloudy", "sunny", "not sunny"]);

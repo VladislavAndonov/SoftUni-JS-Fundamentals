@@ -27,4 +27,5 @@ function monthPrinter(month) {
         console.log("Error!");
     }
 }
-monthPrinter(1)
+monthPrinter(1);
+monthPrinter(6);

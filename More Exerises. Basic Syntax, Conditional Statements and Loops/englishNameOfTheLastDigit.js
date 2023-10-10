@@ -1,4 +1,4 @@
-function nameOfLastDigit(num) {
+function lastDigitName(num) {
   let numToString = String(num);
   let lastDigit = "";
   for (let i = numToString.length - 1; i >= 0; i--) {
@@ -38,6 +38,6 @@ function nameOfLastDigit(num) {
       break;
   }
 }
-nameOfLastDigit(512);
-nameOfLastDigit(1);
-nameOfLastDigit(1643);
+lastDigitName(512);
+lastDigitName(1);
+lastDigitName(1643);

@@ -1,3 +1,1 @@
-function PalindromeInts(params) {
-    
-}
+function PalindromeInts(params) {}
