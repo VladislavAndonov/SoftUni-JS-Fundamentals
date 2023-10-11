@@ -1,6 +1,6 @@
-function multiTable(num) {
+function multplyTable(num) {
   for (let i = 1; i <= 10; i++) {
     console.log(`${num} X ${i} = ${num * i}`);
   }
 }
-multiTable(12);
+multplyTable(12);
