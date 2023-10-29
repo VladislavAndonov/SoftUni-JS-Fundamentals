@@ -1,4 +1,4 @@
-function convertJSON(firstName, lastName, hairColor) {
+function convertJson(firstName, lastName, hairColor) {
   let person = {
     name: firstName,
     lastName: lastName,
@@ -7,4 +7,4 @@ function convertJSON(firstName, lastName, hairColor) {
   let str = JSON.stringify(person);
   console.log(str);
 }
-convertJSON("George", "Jones", "Brown");
+convertJson("George", "Jones", "Brown");
