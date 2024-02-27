@@ -2,8 +2,6 @@ function city(object) {
   for (key in object) {
     console.log(`${key} -> ${object[key]}`);
   }
-  for (value in object) {
-  }
 }
 city({
   name: "Sofia",
